@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="24"
+        android:translateY="24">
+
+        <!-- Palette/color swatch icon for UI Design theme -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,5 L30,55 M5,30 L55,30" android:strokeWidth="3" android:strokeColor="#FFFFFF"/>
+        <path
+            android:fillColor="#FF4081"
+            android:pathData="M30,10 L30,20 Q40,15 30,10z" />
+        <path
+            android:fillColor="#3F51B5"
+            android:pathData="M10,30 L20,30 Q15,20 10,30z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:pathData="M15,45 L45,15" />
+
+    </group>
+</vector>

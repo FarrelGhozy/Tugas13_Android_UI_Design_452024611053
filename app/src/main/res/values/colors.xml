@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        ============================================================
+        PALET WARNA APLIKASI — Tugas 13 UI Design
+        ============================================================
+        ColorPrimary      → Biru Indigo (dominant)
+        ColorSecondary    → Pink accent
+        ColorError        → Merah standar
+        Surface/Background → Putih & abu terang
+        On[Color]         → Teks di atas warna tersebut
+    -->
+
+    <!-- Primary palette -->
+    <color name="primary">#3F51B5</color>
+    <color name="primaryLight">#7986CB</color>
+    <color name="primaryDark">#303F9F</color>
+    <color name="onPrimary">#FFFFFF</color>
+
+    <!-- Secondary palette -->
+    <color name="secondary">#FF4081</color>
+    <color name="secondaryLight">#FF80AB</color>
+    <color name="secondaryDark">#F50057</color>
+    <color name="onSecondary">#FFFFFF</color>
+
+    <!-- Background & Surface -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onBackground">#212121</color>
+    <color name="onSurface">#212121</color>
+
+    <!-- Error -->
+    <color name="error">#B00020</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Text variants -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHint">#9E9E9E</color>
+
+    <!-- Card & Divider -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Outline -->
+    <color name="outline">#BDBDBD</color>
+</resources>

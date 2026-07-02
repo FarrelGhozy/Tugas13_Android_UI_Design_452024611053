@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================================
+         STRINGS — Bahasa Indonesia (Indonesian translation)
+         Folder: values-b+id
+         Android akan otomatis memilih ini saat bahasa perangkat = Indonesia.
+         ================================================================ -->
+
+    <!-- App -->
+    <string name="app_name">Demo Desain UI</string>
+
+    <!-- Toolbar / Navigation -->
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="nav_about">Tentang</string>
+
+    <!-- Profile Section -->
+    <string name="section_profile_title">Profil Pengguna</string>
+    <string name="profile_name">John Doe</string>
+    <string name="profile_email">johndoe@example.com</string>
+    <string name="profile_phone">+62 812-3456-7890</string>
+    <string name="profile_bio">Pengembang Android yang bersemangat tentang Material Design dan membangun pengalaman pengguna yang menyenangkan.</string>
+    <string name="profile_card_title">Informasi Profil</string>
+
+    <!-- Form Labels (TextInputLayout) -->
+    <string name="label_name">Nama Lengkap</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_phone">Nomor Telepon</string>
+    <string name="hint_name">Masukkan nama lengkap Anda</string>
+    <string name="hint_email">Masukkan alamat email Anda</string>
+    <string name="hint_phone">Masukkan nomor telepon Anda</string>
+    <string name="error_empty_field">Bidang ini tidak boleh kosong</string>
+    <string name="error_invalid_email">Masukkan alamat email yang valid</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Simpan Perubahan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_edit">Edit Profil</string>
+
+    <!-- Snackbar Messages -->
+    <string name="snackbar_saved">Profil berhasil disimpan!</string>
+    <string name="snackbar_error">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="snackbar_undo">BATAL</string>
+
+    <!-- Settings Section -->
+    <string name="section_settings_title">Pengaturan Aplikasi</string>
+    <string name="setting_dark_mode">Mode Gelap</string>
+    <string name="setting_dark_mode_desc">Aktifkan tema gelap untuk kenyamanan di malam hari</string>
+    <string name="setting_notifications">Notifikasi</string>
+    <string name="setting_notifications_desc">Terima notifikasi push dari aplikasi</string>
+    <string name="setting_language">Bahasa</string>
+    <string name="setting_language_desc">Ubah bahasa aplikasi</string>
+    <string name="setting_auto_save">Simpan Otomatis</string>
+    <string name="setting_auto_save_desc">Menyimpan perubahan secara otomatis saat keluar</string>
+
+    <!-- About Section -->
+    <string name="section_about_title">Tentang</string>
+    <string name="about_app_name">Tugas 13 — Desain UI</string>
+    <string name="about_version">Versi 1.0</string>
+    <string name="about_description">Aplikasi ini mendemonstrasikan prinsip-prinsip Material Design termasuk pembuatan tema kustom, sistem tipografi, komponen Material, lokalisasi, dan dukungan RTL sebagai bagian dari mata kuliah Pengembangan Perangkat Bergerak.</string>
+    <string name="about_developer">Dikembangkan oleh Farrel Ghozy — 452024611053</string>
+
+    <!-- Material Components Demo -->
+    <string name="fab_content_description">Edit Profil</string>
+    <string name="card_view_title">MaterialCardView</string>
+    <string name="card_view_subtitle">Kartu dengan sudut melengkung dan elevasi</string>
+
+    <!-- RTL Test -->
+    <string name="rtl_test">Teks ini akan sejajar dengan benar dalam tata letak LTR dan RTL</string>
+</resources>

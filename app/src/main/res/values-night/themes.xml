@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        ============================================================
+        THEME — DARK MODE
+        ============================================================
+        Parent: Theme.MaterialComponents.NoActionBar (dark base)
+        Warna dibalik: background jadi gelap, teks jadi terang.
+    -->
+
+    <style name="Theme.Tugas13UI" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary — same brand color, tetap konsisten -->
+        <item name="colorPrimary">@color/primaryLight</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/secondaryLight</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background & Surface (dark) -->
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnBackground">#E0E0E0</item>
+        <item name="colorOnSurface">#E0E0E0</item>
+
+        <!-- Error -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#000000</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">#000000</item>
+
+        <!-- Text appearances (sama, dipakai ulang) -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Tugas13.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Tugas13.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Tugas13.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Tugas13.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Tugas13.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Tugas13.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Tugas13.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Tugas13.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Tugas13.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Tugas13.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Tugas13.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Tugas13.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Tugas13.Overline</item>
+    </style>
+</resources>
