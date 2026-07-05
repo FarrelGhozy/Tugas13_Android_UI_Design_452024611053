@@ -186,14 +186,4 @@ Semua *user-facing strings* diekstrak ke `strings.xml` — **tidak ada hardcoded
 
 [https://github.com/FarrelGhozy/Tugas13_Android_UI_Design_452024611053](https://github.com/FarrelGhozy/Tugas13_Android_UI_Design_452024611053)
 
----
 
-## 📚 Referensi
-
-- [Google Developer Pathway — Lesson 13: App UI Design](https://developer.android.com/courses/pathways/android-development-with-kotlin-13?hl=id)
-- [Material Design 3 Guidelines](https://m3.material.io/)
-- [Material Components for Android](https://github.com/material-components/material-components-android)
-- [Android Styling: Themes vs Styles](https://developer.android.com/guide/topics/ui/themes)
-- [Android Dark Theme](https://developer.android.com/guide/topics/ui/darktheme)
-- [Android Localization](https://developer.android.com/guide/topics/resources/localization)
-- [Android RTL Support](https://developer.android.com/guide/topics/resources/layout-direction)
