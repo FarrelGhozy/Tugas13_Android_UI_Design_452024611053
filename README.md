@@ -31,8 +31,6 @@ Aplikasi ini mendemonstrasikan implementasi **Material Design 3 (Material You)**
 
 ## 📸 Bukti Visual
 
-> *Screenshot akan ditambahkan setelah aplikasi dijalankan di perangkat.*
-
 ### Light Mode vs Dark Mode
 
 | Light Mode | Dark Mode |
