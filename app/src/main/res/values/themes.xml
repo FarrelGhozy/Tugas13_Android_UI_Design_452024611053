@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
-        ============================================================
-        THEME — LIGHT MODE
-        ============================================================
-        Parent: Theme.Material3.Light.NoActionBar
-        Semua warna dikustomisasi via color attributes Material 3.
-    -->
 
-    <style name="Theme.Tugas13UI" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.Tugas13UI" parent="Theme.Material3.Light.NoActionBar">
         <!-- Primary -->
         <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primaryDark</item>
         <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
 
         <!-- Secondary -->
         <item name="colorSecondary">@color/secondary</item>
-        <item name="colorSecondaryVariant">@color/secondaryDark</item>
         <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
 
         <!-- Background & Surface -->
         <item name="android:colorBackground">@color/background</item>
         <item name="colorSurface">@color/surface</item>
         <item name="colorOnBackground">@color/onBackground</item>
         <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
 
         <!-- Error -->
         <item name="colorError">@color/error</item>
         <item name="colorOnError">@color/onError</item>
 
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline</item>
+
         <!-- Status Bar -->
         <item name="android:statusBarColor">@color/primaryDark</item>
 
-        <!-- Text appearance defaults (semua pake sp) -->
+        <!-- Text appearance defaults (all sp) -->
         <item name="textAppearanceHeadline1">@style/TextAppearance.Tugas13.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.Tugas13.Headline2</item>
         <item name="textAppearanceHeadline3">@style/TextAppearance.Tugas13.Headline3</item>
