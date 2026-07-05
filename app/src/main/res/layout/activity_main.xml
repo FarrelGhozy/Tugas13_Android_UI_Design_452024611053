@@ -23,7 +23,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:background="?attr/colorSurface"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -148,7 +149,7 @@
                     app:cardElevation="2dp"
                     app:cardCornerRadius="12dp"
                     app:strokeWidth="1dp"
-                    app:strokeColor="@color/outline"
+                    app:strokeColor="?attr/colorOutline"
                     app:contentPadding="16dp"
                     app:cardBackgroundColor="?attr/colorSurface">
 
@@ -298,7 +299,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="@string/setting_dark_mode_desc"
-                                    android:textColor="@color/textSecondary" />
+                                    android:textColor="?attr/colorOnSurfaceVariant" />
 
                             </LinearLayout>
 
@@ -314,7 +315,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/divider" />
+                            android:background="?attr/colorOutlineVariant" />
 
                         <!-- Switch #2: Notifications -->
                         <LinearLayout
@@ -342,7 +343,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="@string/setting_notifications_desc"
-                                    android:textColor="@color/textSecondary" />
+                                    android:textColor="?attr/colorOnSurfaceVariant" />
 
                             </LinearLayout>
 
@@ -358,7 +359,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/divider" />
+                            android:background="?attr/colorOutlineVariant" />
 
                         <!-- Switch #3: Auto Save -->
                         <LinearLayout
@@ -386,7 +387,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="@string/setting_auto_save_desc"
-                                    android:textColor="@color/textSecondary" />
+                                    android:textColor="?attr/colorOnSurfaceVariant" />
 
                             </LinearLayout>
 
@@ -421,7 +422,7 @@
                     android:layout_marginBottom="16dp"
                     app:cardElevation="2dp"
                     app:cardCornerRadius="12dp"
-                    app:strokeColor="@color/primary"
+                    app:strokeColor="?attr/colorPrimary"
                     app:strokeWidth="1dp"
                     app:contentPadding="20dp"
                     app:cardBackgroundColor="?attr/colorSurface">
@@ -447,7 +448,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="@string/about_version"
-                            android:textColor="@color/textSecondary" />
+                            android:textColor="?attr/colorOnSurfaceVariant" />
 
                         <TextView
                             style="@style/TextAppearance.Tugas13.Body2"
@@ -465,7 +466,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
                             android:text="@string/about_developer"
-                            android:textColor="@color/primary"
+                            android:textColor="?attr/colorPrimary"
                             android:textStyle="italic" />
 
                     </LinearLayout>
@@ -479,7 +480,7 @@
                     android:layout_marginBottom="24dp"
                     app:cardElevation="1dp"
                     app:cardCornerRadius="8dp"
-                    app:strokeColor="@color/outline"
+                    app:strokeColor="?attr/colorOutline"
                     app:strokeWidth="1dp"
                     app:contentPadding="12dp"
                     app:cardBackgroundColor="?attr/colorSurface">
