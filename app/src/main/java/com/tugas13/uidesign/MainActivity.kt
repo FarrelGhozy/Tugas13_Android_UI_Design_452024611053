@@ -3,6 +3,7 @@ package com.tugas13.uidesign
 import android.os.Bundle
 import android.widget.ScrollView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.snackbar.Snackbar
 import com.tugas13.uidesign.databinding.ActivityMainBinding
 
@@ -26,10 +27,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setupDarkModeSwitch()
         setupBottomNavigation()
         setupFab()
         setupSaveButton()
-        setupDarkModeSwitch()
     }
 
     /**
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.LENGTH_LONG
             )
                 .setAction(getString(R.string.snackbar_undo)) {
-                    Snackbar.make(view, "Changes reverted", Snackbar.LENGTH_SHORT).show()
+                    Snackbar.make(view, getString(R.string.snackbar_reverted), Snackbar.LENGTH_SHORT).show()
                 }
                 .setAnchorView(binding.bottomNavigation)
                 .show()
@@ -136,22 +137,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * Dark Mode switch — informasi bahwa dark mode diatur via sistem.
+     * Dark Mode switch — toggle antara Light dan Dark mode.
      */
     private fun setupDarkModeSwitch() {
+        val currentMode = resources.configuration.uiMode and
+                android.content.res.Configuration.UI_MODE_NIGHT_MASK
+        binding.switchDarkMode.isChecked = currentMode ==
+                android.content.res.Configuration.UI_MODE_NIGHT_YES
+
         binding.switchDarkMode.setOnCheckedChangeListener { _, isChecked ->
-            val message = if (isChecked) {
-                "Dark Mode diatur via System Settings > Theme untuk hasil terbaik"
+            if (isChecked) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             } else {
-                "Light Mode aktif"
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
-            Snackbar.make(
-                binding.root,
-                message,
-                Snackbar.LENGTH_SHORT
-            )
-                .setAnchorView(binding.bottomNavigation)
-                .show()
         }
     }
 }
