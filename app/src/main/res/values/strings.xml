@@ -15,8 +15,8 @@
 
     <!-- Profile Section -->
     <string name="section_profile_title">User Profile</string>
-    <string name="profile_name">John Doe</string>
-    <string name="profile_email">johndoe@example.com</string>
+    <string name="profile_name">Farrel Ghozy</string>
+    <string name="profile_email">fazyfarrel@gmail.com</string>
     <string name="profile_phone">+62 812-3456-7890</string>
     <string name="profile_bio">Android developer passionate about Material Design and building delightful user experiences.</string>
     <string name="profile_card_title">Profile Information</string>
@@ -40,6 +40,9 @@
     <string name="snackbar_saved">Profile saved successfully!</string>
     <string name="snackbar_error">Something went wrong. Please try again.</string>
     <string name="snackbar_undo">UNDO</string>
+    <string name="snackbar_reverted">Changes reverted</string>
+    <string name="snackbar_dark_mode_hint">Dark Mode is best managed via System Settings &gt; Theme</string>
+    <string name="snackbar_light_mode">Light mode active</string>
 
     <!-- Settings Section -->
     <string name="section_settings_title">App Settings</string>

@@ -16,8 +16,8 @@
 
     <!-- Profile Section -->
     <string name="section_profile_title">Profil Pengguna</string>
-    <string name="profile_name">John Doe</string>
-    <string name="profile_email">johndoe@example.com</string>
+    <string name="profile_name">Farrel Ghozy</string>
+    <string name="profile_email">fazyfarrel@gmail.com</string>
     <string name="profile_phone">+62 812-3456-7890</string>
     <string name="profile_bio">Pengembang Android yang bersemangat tentang Material Design dan membangun pengalaman pengguna yang menyenangkan.</string>
     <string name="profile_card_title">Informasi Profil</string>
@@ -41,6 +41,9 @@
     <string name="snackbar_saved">Profil berhasil disimpan!</string>
     <string name="snackbar_error">Terjadi kesalahan. Silakan coba lagi.</string>
     <string name="snackbar_undo">BATAL</string>
+    <string name="snackbar_reverted">Perubahan dibatalkan</string>
+    <string name="snackbar_dark_mode_hint">Mode Gelap lebih baik diatur melalui Pengaturan Sistem &gt; Tema</string>
+    <string name="snackbar_light_mode">Mode terang aktif</string>
 
     <!-- Settings Section -->
     <string name="section_settings_title">Pengaturan Aplikasi</string>
